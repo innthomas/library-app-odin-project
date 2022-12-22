@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Library App</h1>
+    </header>
+    <main>
+        <form id="form">
+            <input type="text" name="title" id="title" placeholder="title">
+            <input type="text" name="author" id="author" placeholder="author">
+            <input type="number" name="pages" id="pages" placeholder="number of pages">
+            <input type="radio" name="read" id="yes" value="No" checked>
+            <label for="yes">No</label>
+            <input type="radio" name="read" id="read" value="Yes">
+            <label for="no">Yes</label>
+            <button type="submit" id="submit">add book</button>
+        </form>
+        <section id="output" class="output">
+
+        </section>
+    </main>
+</body>
+<script src="main.js"></script>
+</html>
